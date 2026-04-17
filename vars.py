@@ -12,10 +12,10 @@ FORCE_SUB_CHANNEL = environ.get("FORCE_SUB_CHANNEL", "bot_subscription")  # Chan
 FORCE_SUB_CHANNEL_LINK = environ.get("FORCE_SUB_CHANNEL_LINK", "https://t.me/bot_subscription")  # Channel link
 
 # Admin Configuration
-ADMINS = list(map(int, environ.get("ADMINS", "").split()))
+ADMINS = list(map(int, environ.get("7999503553", "").split()))
 
 # Optional: Bot Owner ID
-OWNER_ID = int(environ.get("7660916897", ""))
+OWNER_ID = int(environ.get("OWNER_ID", ""))
 
 # Database URL (if you want to add database support later)
 DATABASE_URL = environ.get("DATABASE_URL", "")
