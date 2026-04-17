@@ -13,7 +13,7 @@ import subprocess
 
 import core as helper
 from utils import progress_bar
-from vars import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL_LINK, ADMINS, OWNER_ID
+from vars import API_ID, API_HASH, BOT_TOKEN, FORCE_SUB_CHANNEL, FORCE_SUB_CHANNEL_LINK
 from aiohttp import ClientSession
 from pyromod import listen
 from subprocess import getstatusoutput
