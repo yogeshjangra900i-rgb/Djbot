@@ -397,5 +397,14 @@ async def upload(bot: Client, m: Message):
     )
     await m.reply_text(summary_text)
 
+async def start_bot():
+    await bot.start()
+    print("Bot is running...")
+    from pyrogram import idle
+    await idle()
+    await bot.stop()
+
 if __name__ == "__main__":
-    bot.run()
+    import asyncio
+    asyncio.get_event_loop().run_until_complete(start_bot())
+    
